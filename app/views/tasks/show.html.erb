@@ -1,0 +1,10 @@
+
+<div class='title'><h1><%= @task.title%></h1></div>
+<h2><%= @task.details%></h2></div>
+<div><p><%= @task.completed%></p></div>
+<div><p><%= @task.created_at %></p></div>
+<div><p><%= @task.updated_at %><p></div>
+<br>
+  <div><%= link_to 'éditer', edit_task_path%></div>
+
+<div><%= link_to 'back', tasks_path%></div>
